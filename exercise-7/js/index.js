@@ -19,15 +19,11 @@ switch (question) {
         break;
     };
     case 2: {
-        console.log("Estas en lo correcto.");
+        console.log("Es incorrecto, cuando se ejecuta todo, el orden que hace es mandar el setTimeout a las macro tareas y las promesas a la microtareas, se ejecutan primero todo, depsues va la micro y por ultimo la macro.");
         break;
     };
     case 3: {
-        console.log("Estas en lo correcto.");
+        console.log("Casi lo tienes, solo te falto que el fin del script sean antes de la promesa, esto ya que como es una tarea sin macro ni micro, se ejecuta de inmediato.");
         break;
     };
-    default: {
-        console.log("Estas en lo correcto.");
-        break;
-    };
-}
+};
